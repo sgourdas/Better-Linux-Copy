@@ -14,6 +14,10 @@ that maps all links.
 
 Enter the ``` make ``` command while in the */Better-Linux-Copy/* directory.
 
+### Execution 
+
+Type ``` ./quic ``` while in the project's directory
+
 ### Command line arguments
 You can give the following arguments in the command line:
 

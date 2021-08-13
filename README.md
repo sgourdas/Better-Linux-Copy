@@ -1,12 +1,11 @@
 # Better-Linux-Copy
-An improvement of Linux "cp" command
+An improvement of the Linux "cp" command
 
 ## Information
 
-Goal of this project is to create a program that copies hierarchies of directories/files fast. The program is called quick incremental copy or just quic. To do this we have to 
+Goal of this project is to create a program that copies hierarchies of directories/files fast. The program is called quick incremental copy (quic for short). To do this we have to 
 take advantage of the fact that usually when we copy a hierarchy a big part of it might already exist unmodified. The program identifies and manages different types of entities to
-make the exact same copy of a specified directory to a destination path. Each entity is copied over using read write syscalls. Also, a "map" is created for the correct copy of links 
-that maps all links.
+make the exact same copy of a specified directory to a destination path. Each entity is copied over using read write syscalls. Also, a "map", that maps all links, is created for their correct recreation.
 
 ## Using the database
 
